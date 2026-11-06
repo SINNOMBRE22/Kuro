@@ -1,0 +1,55 @@
+{
+  // Token que te da @BotFather
+  "token": "TU_TOKEN_AQUI",
+
+  // Tu ID de Telegram (pídelo a @userinfobot). Puedes poner varios.
+  "owners": [123456789],
+
+  "botName": "Kuro",
+  "ownerName": "SinNombre",
+  "ownerUser": "SinNombreNET",
+  "channel": "",
+  "github": "https://github.com/SINNOMBRE22/Kuro",
+
+  // Prefijos aceptados: /menu .menu #menu !menu
+  "prefixes": "/.#!",
+
+  // Enlaces permitidos aunque el antilink esté en "todos" (se comparan en minúsculas,
+  // como "contiene"). Tu GitHub, tu dominio y tu canal se agregan solos.
+  "linkWhitelist": [
+    "github.com/sinnombre22",
+    "githubusercontent.com/sinnombre22",
+    "sinnombre.xyz",
+    "t.me/sinnombrenet"
+  ],
+
+  // "photo" usa las imágenes de assets/  ·  "text" solo texto
+  "menuStyle": "photo",
+
+  // Ignora los mensajes que llegaron mientras el bot estaba apagado
+  "skipPending": true,
+
+  // Fuerza IPv4. Déjalo en true si tu VPS tiene IPv6 roto (timeouts al descargar o buscar anime).
+  "forceIPv4": true,
+  "workers": 8,
+
+  // Key gratis del día (una por día para todos; el owner siempre recibe)
+  "tzOffset": -6,
+  "freeKeyProduct": "SN PLUS",
+  "freeKeyBuy": "@SinNombreNET",
+  // Opcional: comando que imprime una key nueva. Si está vacío, usa las que cargues con /addkey.
+  // Con el bot de keys en la misma VPS: ["/root/key/sn-keybot", "genkey", "plus"]
+  "freeKeyCommand": [],
+
+  // Descargas
+  "ytdlp": "yt-dlp",
+  "ffmpeg": "ffmpeg",
+  "cookies": "",
+  "ytClients": ["default", "mweb", "tv", "web_safari"],
+  "maxDownloads": 3,
+  "maxUploadMB": 49,
+  "maxAudioMinutes": 45,
+
+  // Servidor de la Bot API (cámbialo solo si usas un servidor local)
+  "apiUrl": "https://api.telegram.org"
+}
